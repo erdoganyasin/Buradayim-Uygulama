@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:paddingBottom="7dp"
+  android:orientation="vertical">
+
+  <android.support.v7.widget.CardView
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@color/cardview_light_background"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:contentPadding="10dp">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilItem"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="2.5dp"
+        app:civ_border_overlay="true"
+        android:src="@drawable/child"/>
+
+      <LinearLayout
+        android:layout_marginLeft="5dp"
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/profilItem"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/profilItem">
+        <TextView
+          android:id="@+id/ad"
+          android:textStyle="bold"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:textColor="#3d4357"
+          android:text="Kullanıcı Adı"
+          android:textSize="20sp"/>
+        <TextView
+          android:id="@+id/zaman"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:text="18/05/2018 21:34"
+          android:textColor="@color/textColor"/>
+
+       <!-- <TextView
+          android:id="@+id/uzaklik"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:text="110 m uzaklıkta"
+          android:textColor="#074741"/>-->
+
+        <TextView
+          android:id="@+id/adresler"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="5dp"
+          android:textColor="#ffa22a"
+          android:text="İmam Hasan Camii Geçimi"
+          />
+
+      </LinearLayout>
+
+
+      <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        app:srcCompat="@drawable/ic_map_black_24dp"
+        tools:ignore="VectorDrawableCompat"/>
+
+
+    </RelativeLayout>
+
+
+  </android.support.v7.widget.CardView>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "865771736582",
+    "firebase_url": "https://buradayim-f0844.firebaseio.com",
+    "project_id": "buradayim-f0844",
+    "storage_bucket": "buradayim-f0844.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865771736582:android:f6f1ca6d61388736",
+        "android_client_info": {
+          "package_name": "buradayim.lyadirga.com.buradayim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865771736582-cuqrem0j6s3h1gmpsla2mla47gdekgnq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "buradayim.lyadirga.com.buradayim",
+            "certificate_hash": "a97e95a18a8b1d678d996709f90b3ea53636815c"
+          }
+        },
+        {
+          "client_id": "865771736582-5cc1ipnqbsdo3mpu0kmft23vlcbptdrq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsU6T6TICaih37xJ3tlAYbAMg-x8_G7Ng"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865771736582-5cc1ipnqbsdo3mpu0kmft23vlcbptdrq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
